@@ -1,3 +1,29 @@
-p {
-  color: green;
+h1 {
+    color: red;
+}
+
+p, li {
+    color: green;
+}
+
+a:link {
+    color: orange;
+}
+  
+a:visited {
+    color: darkorange;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: pink;
+}
+  
+@media (min-width: 50em) {
+    body {
+      background-color: lightblue;
+    }
 }
