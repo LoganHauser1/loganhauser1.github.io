@@ -19,34 +19,92 @@ a:hover {
 }
 
 body {
-  height: 100vh;
+  height: 140vh;
   background-color: lightblue;
   background-image: linear-gradient(45deg, red, blue);
 }
 
-div {
+body > div {
     border-style: solid;
     border-width: 2px;
     border-color: white;
-    text-align: center;
 }
 
-.links {
-    position: absolute;
-    left: 50%;
-    top: 70%;
-    transform: translate(-50%, -50%);
+#links {
+    top: 130%;
     display: block;
     width: fit-content;
     padding: 10px 50px;
     font-size: xx-large;
+    text-align: center;
 }
 
-div#centered {
+.centered {
     position: absolute;
     left: 50%;
-    top: 50%;
     transform: translate(-50%, -50%);
+}
+
+#title {
+    top: 35%;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
+}
+
+#table {
+    top: 60%;
+    text-align: center;
+}
+
+#form {
+    top: 97%;
+}
+
+#form h1, #form p {
+    text-align: center;
+}
+
+#submit {
+    position: relative;
+    left: 140px;
+}
+
+#form p {
+    color: white;
+}
+
+table {
+    /*
+    background-color: #fefefe80;
+    */
+}
+
+th, td {
+    text-align: center;
+    background-color: #dddddd80;
+    color: azure;
+    padding: 5px;
+    border-color: #dddddd80;
+}
+/*
+h1.table-label {
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+input {
+    text-align: left;
+}
+
+form div {
+    background-color: #dddddd80;
+    margin: 1px;
+}
+
+label {
+    color: azure;
 }

@@ -4,15 +4,82 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="centered">
+    <div class="centered" class="border" id="title">
       <h1>Welcome to my website.</h>
         <p>This website will tell you about coding.</p>
     </div>
-    <div class="links">
+    <div id="links" class="centered" class="border">
       <a href="mailto:logan.hauser@oneidaihla.org">Contact me</a>
     <br>
     <a href="about.html">ABOUT</a>
     <a href="links.html">LINKS</a>
+    </div>
+    <div class="centered" id="table">
+      <h1 id="table-label">Coding Languages</h1>
+      <table>
+        <tr>
+          <th></th>
+          <th>C++</th>
+          <th>Python</th>
+          <th>HTML</th>
+          <th>Javascript</th>
+          <th>Java</th>
+          <th>CSS</th>
+        </tr>
+        <tr>
+          <td>Date Created</td>
+          <td>1983</td>
+          <td>1991</td>
+          <td>1993</td>
+          <td>1995</td>
+          <td>1995</td>
+          <td>1996</td>
+        </tr>
+        <tr>
+          <td>Creator</td>
+          <td>Bjarne Stroustrup</td>
+          <td>Guido van Rossum</td>
+          <td>Tim Berners-Lee</td>
+          <td>Brendan Eich</td>
+          <td>James Gosling</td>
+          <td>W3C</td>
+        </tr>
+      </table>
+    </div>
+    <div class="centered" id="form" class="border">
+      <h1>Coding Form</h1>
+      <form action="submit.php">
+        <p>Which coding languages have you used before?</p>
+        <div>
+          <input type="checkbox" id="html">
+          <label for="html">HTML</label><br>
+        </div>
+        <div>
+          <input type="checkbox" id="css">
+          <label for="css">CSS</label><br>
+        </div>
+        <div>
+          <input type="checkbox" id="java">
+          <label for="java">Java</label><br>
+        </div>
+        <div>
+          <input type="checkbox" id="javascript">
+          <label for="javascript">Javascript</label><br>
+        </div>
+        <div>
+          <input type="checkbox" id="c++">
+          <label for="c++">C++</label><br>
+        </div>
+        <div>
+          <input type="checkbox" id="python">
+          <label for="python">Python</label><br>
+        </div>
+        <p>Which language would you like to learn more about?</p>
+        <div>
+          <input type="text" placeholder="Enter Coding Language">
+        </div>
+        <input type="submit" id="submit">
+      </form>
     </div>
   </body>
 </html>
