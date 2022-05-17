@@ -74,12 +74,6 @@ body > div {
     color: white;
 }
 
-table {
-    /*
-    background-color: #fefefe80;
-    */
-}
-
 th, td {
     text-align: center;
     background-color: #dddddd80;
@@ -87,14 +81,6 @@ th, td {
     padding: 5px;
     border-color: #dddddd80;
 }
-/*
-h1.table-label {
-    position: absolute;
-    left: 50%;
-    top: 62%;
-    transform: translate(-50%, -50%);
-}
-*/
 
 input {
     text-align: left;
